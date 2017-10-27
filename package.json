@@ -1,6 +1,6 @@
 {
   "name": "govuk-colours",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "GOV.UK standard colours as JavaScript constants.",
   "main": "lib/index.js",
   "module": "src/index.js",
