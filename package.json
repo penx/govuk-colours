@@ -11,7 +11,7 @@
     "url": "git+https://github.com/penx/govuk-colours.git"
   },
   "scripts": {
-    "prepare": "babel src -d lib"
+    "prepare": "babel --source-maps -d lib/ src/"
   },
   "keywords": [
     "govuk",
