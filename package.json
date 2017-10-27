@@ -2,12 +2,16 @@
   "name": "govuk-colours",
   "version": "1.0.0",
   "description": "GOV.UK standard colours as JavaScript constants.",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "module": "src/index.js",
   "author": "Alasdair McLeay",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/penx/govuk-colours.git"
+  },
+  "scripts": {
+    "prepare": "babel src -d lib"
   },
   "keywords": [
     "govuk",
@@ -16,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/penx/govuk-colours/issues"
   },
-  "homepage": "https://github.com/penx/govuk-colours#readme"
+  "homepage": "https://github.com/penx/govuk-colours#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
 }
