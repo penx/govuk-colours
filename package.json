@@ -3,7 +3,6 @@
   "version": "1.0.2",
   "description": "GOV.UK standard colours as JavaScript constants.",
   "main": "lib/index.js",
-  "module": "src/index.js",
   "author": "Alasdair McLeay",
   "license": "MIT",
   "repository": {
