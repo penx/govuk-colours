@@ -1,6 +1,6 @@
 {
   "name": "govuk-colours",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "GOV.UK standard colours as JavaScript constants.",
   "main": "lib/index.js",
   "author": "Alasdair McLeay",
