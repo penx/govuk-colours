@@ -54,6 +54,7 @@ export const LINK_ACTIVE_COLOUR = LIGHT_BLUE;
 export const LINK_HOVER_COLOUR = LIGHT_BLUE;
 export const LINK_VISITED_COLOUR = "#4c2c92";
 export const BUTTON_COLOUR = "#00823b";
+export const BUTTON_COLOUR_DARKEN_5 = '#00692f'; // darken(#00823b, 5%)
 export const BUTTON_COLOUR_DARKEN_15 = "#003618"; //darken(#00823b, 15%)
 export const FOCUS_COLOUR = YELLOW;
 export const TEXT_COLOUR = BLACK;
