@@ -2,7 +2,7 @@
   "name": "govuk-colours",
   "version": "1.1.0",
   "description": "GOV.UK standard colours as JavaScript constants.",
-  "main": "lib/index.js",
+  "main": "lib/index.ts",
   "author": "Alasdair McLeay",
   "license": "MIT",
   "repository": {
