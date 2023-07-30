@@ -10,7 +10,8 @@
     "url": "git+https://github.com/penx/govuk-colours.git"
   },
   "scripts": {
-    "prepare": "babel --source-maps -d lib/ src/"
+    "prepare": "babel --source-maps -d lib/ src/",
+    "test:types": "tsc --noEmit --declaration -p ./tsconfig.json"
   },
   "keywords": [
     "govuk",
